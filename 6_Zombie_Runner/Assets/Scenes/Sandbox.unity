@@ -1056,6 +1056,10 @@ PrefabInstance:
       propertyPath: hitEffect
       value: 
       objectReference: {fileID: 6860941396664517291, guid: 3ec11b3214bd97a4e82614f88879636a, type: 3}
+    - target: {fileID: 7772939337607118469, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: gameOverCanvas
+      value: 
+      objectReference: {fileID: 2139340489}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
 --- !u!1001 &648794372
@@ -4359,18 +4363,6 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2631783847379053240, guid: 18b174ac49cc5324fa13445b1d91b3e3, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2631783847379053240, guid: 18b174ac49cc5324fa13445b1d91b3e3, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2631783847379053240, guid: 18b174ac49cc5324fa13445b1d91b3e3, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2631783847379053240, guid: 18b174ac49cc5324fa13445b1d91b3e3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.24
       objectReference: {fileID: 0}
@@ -4410,9 +4402,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3487713671716976017, guid: 18b174ac49cc5324fa13445b1d91b3e3, type: 3}
-      propertyPath: target
-      value: 
-      objectReference: {fileID: 25298459}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18b174ac49cc5324fa13445b1d91b3e3, type: 3}
