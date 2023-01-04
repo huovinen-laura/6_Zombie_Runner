@@ -185,7 +185,7 @@ GameObject:
   - component: {fileID: 7542497216860534803}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -342,7 +342,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfed509b55185fc4e8b5782ce306546e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ammoAmount: 10
+  ammoSlots:
+  - ammoType: 0
+    ammoAmount: 20
+  - ammoType: 1
+    ammoAmount: 8
+  - ammoType: 2
+    ammoAmount: 40
 --- !u!1 &6632667697034697448
 GameObject:
   m_ObjectHideFlags: 0
@@ -389,6 +395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f3f03af2cc189048a5b4acb811e0869, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentWeapon: 0
 --- !u!1001 &2030908926842781483
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -414,7 +421,7 @@ PrefabInstance:
       objectReference: {fileID: 11400004}
     - target: {fileID: 8508799125042235254, guid: 5b27727551cd0304fad7c947e228b384, type: 3}
       propertyPath: m_Name
-      value: SM_Butt_Of_The_Rifle_For_Special_Submachine_Gun_Clean
+      value: Rifle
       objectReference: {fileID: 0}
     - target: {fileID: 8508799125042235254, guid: 5b27727551cd0304fad7c947e228b384, type: 3}
       propertyPath: m_IsActive

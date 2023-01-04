@@ -10,9 +10,16 @@ public class Weapon : MonoBehaviour
     [SerializeField] ParticleSystem muzzleFlash;
     [SerializeField] GameObject hitEffect;
     [SerializeField] Ammo ammoSlot;
+    [SerializeField] AmmoType ammoType;
     [SerializeField] float timeBetweenShots = 0.5f;
 
     bool canShoot = true;
+
+    private void OnEnable()
+    {
+        // Remember - Player can switch weapons and just ignore the delay with this
+        canShoot = true;
+    }
 
     private void Update()
     {
@@ -26,11 +33,11 @@ public class Weapon : MonoBehaviour
     {
         canShoot = false;
 
-        if (ammoSlot.GetCurrentAmmo() > 0)
+        if (ammoSlot.GetCurrentAmmo(ammoType) > 0)
         {
             PlayMuzzleFlash();
             ProcessRaycast();
-            ammoSlot.ReduceCurrentAmmo();
+            ammoSlot.ReduceCurrentAmmo(ammoType);
         }
         yield return new WaitForSeconds(timeBetweenShots);
         canShoot = true;
