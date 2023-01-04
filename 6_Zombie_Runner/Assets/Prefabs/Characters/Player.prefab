@@ -182,7 +182,6 @@ GameObject:
   - component: {fileID: 11400004}
   - component: {fileID: 409309931100764129}
   - component: {fileID: 7772939337607118469}
-  - component: {fileID: 6021163176831359126}
   - component: {fileID: 7542497216860534803}
   m_Layer: 0
   m_Name: Player
@@ -331,23 +330,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverCanvas: {fileID: 0}
---- !u!114 &6021163176831359126
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100006}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 555d44dda214fb940ac143cda39b2291, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fpsCamera: {fileID: 0}
-  zoomedOutFOV: 60
-  zoomedInFOV: 20
-  zoomedOutSensitivity: 2
-  zoomedInSensitivity: 0.5
 --- !u!114 &7542497216860534803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -409,6 +391,14 @@ PrefabInstance:
       propertyPath: ammoSlot
       value: 
       objectReference: {fileID: 7542497216860534803}
+    - target: {fileID: 4547427947350412439, guid: 5b27727551cd0304fad7c947e228b384, type: 3}
+      propertyPath: fpsCamera
+      value: 
+      objectReference: {fileID: 2000000}
+    - target: {fileID: 4547427947350412439, guid: 5b27727551cd0304fad7c947e228b384, type: 3}
+      propertyPath: fpsController
+      value: 
+      objectReference: {fileID: 11400004}
     - target: {fileID: 8508799125042235254, guid: 5b27727551cd0304fad7c947e228b384, type: 3}
       propertyPath: m_Name
       value: SM_Butt_Of_The_Rifle_For_Special_Submachine_Gun_Clean
@@ -487,6 +477,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pistol
       objectReference: {fileID: 0}
+    - target: {fileID: 8641082317888092561, guid: 546f6d5353f84f440854658c91d5d260, type: 3}
+      propertyPath: fpsCamera
+      value: 
+      objectReference: {fileID: 2000000}
+    - target: {fileID: 8641082317888092561, guid: 546f6d5353f84f440854658c91d5d260, type: 3}
+      propertyPath: fpsController
+      value: 
+      objectReference: {fileID: 11400004}
     - target: {fileID: 9033802031386353100, guid: 546f6d5353f84f440854658c91d5d260, type: 3}
       propertyPath: m_RootOrder
       value: 2

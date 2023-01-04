@@ -1056,6 +1056,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4773066117206671480, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6021163176831359126, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: fpsCamera
       value: 
@@ -1066,7 +1070,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7654552913086134365, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7772939337607118469, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: gameOverCanvas
@@ -4371,6 +4375,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 25298459}
+    - target: {fileID: 2631783847379053237, guid: 18b174ac49cc5324fa13445b1d91b3e3, type: 3}
+      propertyPath: chaseRange
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 2631783847379053238, guid: 18b174ac49cc5324fa13445b1d91b3e3, type: 3}
       propertyPath: m_Name
       value: Enemy
